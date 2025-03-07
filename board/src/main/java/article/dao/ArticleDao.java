@@ -55,6 +55,7 @@ public class ArticleDao {
 	private Timestamp toTimestamp(Date date) {
 		return new Timestamp(date.getTime());
 	}
+	
 
 	public int selectCount(Connection conn) throws SQLException {
 		Statement stmt = null;
